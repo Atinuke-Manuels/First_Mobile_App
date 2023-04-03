@@ -15,7 +15,7 @@ const Thirdsection = () => {
          <View>
             <Text 
             style={{
-                fontWeight: 650, 
+                fontWeight: 700, 
                 marginBottom: 15,
                 marginTop: 15
                 }}>Close to you</Text>
