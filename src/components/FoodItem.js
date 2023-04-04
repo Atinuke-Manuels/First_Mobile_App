@@ -1,9 +1,20 @@
-import { View, Image, Text, ScrollView } from "react-native";
+import { View, Image, Text, ScrollView, TouchableOpacity } from "react-native";
 import React from "react";
 import Thirdsection from "../screens/Thirdsection";
-
+import { useNavigation } from "@react-navigation/native";
 
 const FoodItem = ({ FoodItem, marginLeft, marginRight }) => {
+
+  const navigation = useNavigation();
+
+  // const navigate = () => {
+  //   navigation.navigate("GrilledChicken");
+  // };
+
+    const pressHandler = () => {
+    navigation.navigate("Page2");
+  };
+
   return (
     <View
       style={{
@@ -17,6 +28,9 @@ const FoodItem = ({ FoodItem, marginLeft, marginRight }) => {
         width: 240,
       }}
     >
+      <TouchableOpacity
+      onPress={ pressHandler }
+      >
       <View>
         <Image
           source={FoodItem.image}
@@ -64,11 +78,13 @@ const FoodItem = ({ FoodItem, marginLeft, marginRight }) => {
         >
           ${FoodItem.price.toFixed(2)}
         </Text>
+        
       </View>
 
       <View>
         <Thirdsection />
       </View>
+      </TouchableOpacity>
     </View>
     
   );
