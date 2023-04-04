@@ -1,8 +1,8 @@
 const categories = [
   {
     id: 0,
-    title: "Nice food",
-    image: require("../assets/images/food4.jpg"),
+    title: "Grilled Chicken",
+    image: require("../assets/images/grilled.jpg"),
     price: 20,
     rating: 2
   },
