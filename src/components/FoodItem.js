@@ -54,7 +54,7 @@ const FoodItem = ({ FoodItem, marginLeft, marginRight }) => {
         >
           <View style={{ justifyContent: "center", paddingRight: 6 }}>
             <Image
-              source={require("../assets/icons/star.png")}
+              source={require("../../src/assets/icons/star.png")}
               style={{ width: 14, height: 14 }}
             />
           </View>
@@ -81,9 +81,9 @@ const FoodItem = ({ FoodItem, marginLeft, marginRight }) => {
         
       </View>
 
-      <View>
+      {/* <View>
         <Thirdsection />
-      </View>
+      </View> */}
       </TouchableOpacity>
     </View>
     

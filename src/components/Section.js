@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity } from "react-native";
 import React from "react";
-import Thirdsection from "../screens/Thirdsection";
+
 
 const Section = ({ onPress, title, myStyle }) => {
   return (

@@ -33,19 +33,19 @@ const HeaderContent = () => {
       >
         <View style={{ flex: 1, justifyContent: "center" }}>
           <Image
-            source={require("../assets/icons/menu.png")}
+            source={require("../../src/assets/icons/menu.png")}
             style={{ width: 25, height: 25, tintColor: "white" }}
           />
         </View>
         <View style={{ paddingRight: 25, justifyContent: "center" }}>
           <Image
-            source={require("../assets/icons/bag.png")}
+            source={require("../../src/assets/icons/bag.png")}
             style={{ width: 25, height: 25, tintColor: "white" }}
           />
         </View>
         <View style={{ justifyContent: "center" }}>
           <Image
-            source={require("../assets/icons/bell.png")}
+            source={require("../../src/assets/icons/bell.png")}
             style={{ width: 25, height: 25, tintColor: "white" }}
           />
         </View>
@@ -109,7 +109,7 @@ const HeaderContent = () => {
       >
         <View style={{ justifyContent: "center" }}>
           <Image
-            source={require("../assets/icons/search.png")}
+            source={require("../../src/assets/icons/search.png")}
             style={{
               width: 20,
               height: 20,

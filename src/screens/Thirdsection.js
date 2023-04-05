@@ -9,7 +9,7 @@ const Thirdsection = () => {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        gap: 50,
+        gap: 15,
         // justifyContent: 'space-between',
         width: '100%'}}>
          <View>
@@ -23,8 +23,8 @@ const Thirdsection = () => {
             // resizeMode = "contain"
             source={require('../../src/assets/images/thirdfood.jpg')}
             style={{
-                width: 140,
-                height: 130,
+                width: 120,
+                height: 110,
                 borderRadius: 15,
               }}/>
               </View>
@@ -48,12 +48,13 @@ const Thirdsection = () => {
              </View>
             </View>
             <View >
+              <Text style={{marginTop: -55, paddingBottom: 40, color: 'green'}} >See All</Text>
             <Text 
             style={{
                 color: '#00bcb8',
                  fontSize: 11, 
                  fontWeight: 700,
-                 paddingLeft: 30,
+                 paddingLeft: 10,
                  }}>$4.2</Text>
 
             </View>
