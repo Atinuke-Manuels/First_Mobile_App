@@ -1,4 +1,4 @@
 # First_Mobile_App
 ## My first mobile app assignment at stutern
-- ScreenShot of Homepage ![HOMEPAGE](https://user-images.githubusercontent.com/114990557/229616799-e6bd3a4e-5c05-4aba-ad03-80bf669e4271.jpeg)
-- ScreenShot of Secondpage ![SECOND_PAGE](https://user-images.githubusercontent.com/114990557/229616873-4c6040c5-1619-4876-8c9a-e0d7f80441ee.jpeg)
+- ScreenShot of Homepage ![WhatsApp Image 2023-04-05 at 1 14 30 PM](https://user-images.githubusercontent.com/114990557/230078943-2635fd35-129a-4868-bd97-420806e22d38.jpeg)
+- ScreenShot of Secondpage ![WhatsApp Image 2023-04-05 at 1 14 30 PM (1)](https://user-images.githubusercontent.com/114990557/230079051-d13cc7e5-aada-44f9-b2ff-e30f73293286.jpeg)
